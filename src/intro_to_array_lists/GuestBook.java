@@ -16,6 +16,7 @@ public class GuestBook implements ActionListener {
 	ArrayList<String> name = new ArrayList<String>();
 	JButton temp1 = new JButton();
 	JButton temp2 = new JButton();
+	String names ="";
 	public static void main(String[] args) {
 		GuestBook book = new GuestBook();
 		book.run();
